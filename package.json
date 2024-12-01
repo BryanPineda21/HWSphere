@@ -1,0 +1,53 @@
+{
+  "name": "someweb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.25.0",
+    "@google-cloud/storage": "^7.11.3",
+    "@hookform/resolvers": "^3.6.0",
+    "@nextui-org/react": "^2.4.6",
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
+    "@tanstack/react-query": "^5.51.3",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "firebase": "^10.12.2",
+    "framer-motion": "^11.3.24",
+    "leva": "^0.9.35",
+    "passive-events-support": "^1.1.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.5",
+    "react-instantsearch": "^7.13.0",
+    "react-router-dom": "^6.23.1",
+    "react-stl-viewer": "^2.5.0",
+    "sonner": "^1.5.0",
+    "three": "^0.166.1",
+    "typesense": "^1.8.2",
+    "typesense-instantsearch-adapter": "^2.8.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.2.0"
+  }
+}
