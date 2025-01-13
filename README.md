@@ -11,7 +11,9 @@
 ![Screenshot 2024-12-01 at 3 44 28 PM](https://github.com/user-attachments/assets/0fb1c13c-3222-4b48-9340-b033fd2447ed)
 
 
-## HWSphere OLD VERSION/Progress, PICTURES TO BE UPDATED (HWSphere Development is past this stage)
+## HWSphere OLD Version/Progress (HWSphere Development is past this stage)
+
+### Note: Early development videos of HWSphere
 
 
 <img width="915" alt="Screenshot 2024-11-08 at 1 41 14 PM" src="https://github.com/user-attachments/assets/0df3fbf5-225f-4e91-baf1-18f1785c1794" />
