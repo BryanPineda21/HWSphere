@@ -16,7 +16,7 @@
 
 
 
-## Update coming soon...
+## Update coming soon... end of JAN
 
 
 ## HERE IS A QUICK SNEAK PEAK
