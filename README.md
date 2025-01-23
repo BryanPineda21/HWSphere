@@ -1,6 +1,16 @@
 #  HWSphere.com
 
+
+## Contributors: BEN FUENTES (OWNER) & BRYAN PINEDA (FULL STACK DEVELOPER)
+
+
+## About: HWSphere is a robust and scalable platform for seamless project uploads and management 
+
+
+
 🚧 REPO Under Construction 🚧
+
+
 
 ## Update coming soon...
 
