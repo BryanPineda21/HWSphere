@@ -5,7 +5,7 @@
   DEVELOPED BY: **BRYAN PINEDA**
 
 
-  What is HWSphere?: **HWSphere is a robust and scalable platform for seamless project uploads and management* 
+  What is HWSphere?: **HWSphere is a robust and scalable platform for seamless project uploads and management** 
 
 
 
