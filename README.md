@@ -16,7 +16,7 @@
 
 
 
-## Update coming soon... Stay Tuned 😎 [![github]()][1]
+## Update coming soon... Stay Tuned 😎 
 
 
 ## HERE IS A QUICK SNEAK PEAK
