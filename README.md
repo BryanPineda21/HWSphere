@@ -16,7 +16,7 @@
 
 
 
-## Update coming soon... end of JAN
+## Update coming soon... Stay Tuned 😎 [![github]()][1]
 
 
 ## HERE IS A QUICK SNEAK PEAK
