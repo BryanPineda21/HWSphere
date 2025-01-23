@@ -1,13 +1,11 @@
 #  HWSphere.com
 
-CREATED BY: **BEN FUENTES**
+  CREATED BY: **BEN FUENTES**
 
-#
-
-DEVELOPED BY: **BRYAN PINEDA**
+  DEVELOPED BY: **BRYAN PINEDA**
 
 
-What is HWSphere?: **HWSphere is a robust and scalable platform for seamless project uploads and management* 
+  What is HWSphere?: **HWSphere is a robust and scalable platform for seamless project uploads and management* 
 
 
 
