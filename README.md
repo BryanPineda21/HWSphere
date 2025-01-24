@@ -63,6 +63,10 @@ HWSphere empowers developers with an intuitive interface for project management,
 <img width="915" alt="Screenshot 2024-11-08 at 1 41 14 PM" src="https://github.com/user-attachments/assets/0df3fbf5-225f-4e91-baf1-18f1785c1794" />
 
 
+
+https://github.com/user-attachments/assets/505878b0-6e7c-4243-ba84-890028acd0a1
+
+
 https://github.com/user-attachments/assets/0538d83d-50e3-4c01-8fe5-5db4fb5a6497
 
 
