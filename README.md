@@ -18,6 +18,15 @@
 
 ## Update coming soon... Stay Tuned 😎 
 
+## What Updates?
+
+  **We are currently patiently waiting for a stable version of React Three Fiber V9 to be released, which will ensure compatibility with React 19.**
+  **The UI is currently undergoing a change or is set to be improved to enhance the user experience and visual appeal**
+
+  
+  
+  
+
 
 ## HERE IS A QUICK SNEAK PEAK
 ![Screenshot 2024-12-01 at 3 44 00 PM](https://github.com/user-attachments/assets/847dc3d1-bd0e-4163-b15b-f189bcb8c7e0)
