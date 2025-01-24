@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<img src ="https://github.com/user-attachments/assets/574353d5-e094-414e-83fe-a332f5a265a6"/>
+<img src ="https://github.com/user-attachments/assets/574353d5-e094-414e-83fe-a332f5a265a6" width="150px" alt="HWSphere Logo"/>
 
 
 [![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://reactjs.org/)
