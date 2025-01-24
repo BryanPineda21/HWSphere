@@ -1,34 +1,43 @@
-# HWSphere
+<div align="center">
+ 
+# 🌐 HWSphere
 
-A robust platform for seamless project management and deployment.
+[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![ThreeJS](https://img.shields.io/badge/Three.js-Latest-black?style=flat-square&logo=three.js)](https://threejs.org/)
+[![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)]()
 
-## About
+*A next-generation platform for project management and deployment*
 
-HWSphere enables developers to efficiently upload, manage and showcase their projects through an intuitive interface powered by React and Three.js.
+[Features](#features) • [Updates](#updates) • [Team](#team) • [Contribute](#contribute)
 
-## Status
+</div>
 
-🚀 **In Active Development**
+## 🎯 About
 
-- Awaiting stable React Three Fiber V9 release for React 19 compatibility
-- UI/UX redesign in progress to enhance visual appeal and usability 
+HWSphere empowers developers with an intuitive interface for project management, powered by React and Three.js for immersive visualization.
 
-## Team
+## 🚀 Status Update
 
-- **Ben Fuentes** - Creator
-- **Bryan Pineda** - Lead Developer
+> **React Three Fiber V9 Integration**  
+> Awaiting stable release for React 19 compatibility
 
-## Coming Soon...
+> **UI/UX Overhaul**  
+> Implementing modern design patterns and enhanced user experience
 
-- Enhanced 3D project visualization
-- Improved project management dashboard  
-- Streamlined upload workflow
-- Real-time collaboration features
+## 👥 Team
 
+| Role | Member |
+|------|--------|
+| Creator | **Ben Fuentes** |
+| Lead Developer | **Bryan Pineda** |
 
+## 🔮 Coming Soon
 
-  
-  
+```diff
++ Enhanced 3D project visualization
++ Real-time collaboration features
++ Streamlined upload workflow
++ Advanced project analytics
   
 
 
