@@ -1,5 +1,6 @@
 <div align="center">
- 
+ ![whitelogov2 (1)](https://github.com/user-attachments/assets/574353d5-e094-414e-83fe-a332f5a265a6)
+
 # 🌐 HWSphere
 
 [![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://reactjs.org/)
