@@ -4,7 +4,12 @@
 
 [![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://reactjs.org/)
 [![ThreeJS](https://img.shields.io/badge/Three.js-Latest-black?style=flat-square&logo=three.js)](https://threejs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-Latest-orange?style=flat-square&logo=firebase)](https://firebase.google.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-Latest-green?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-Latest-lightgrey?style=flat-square&logo=express)](https://expressjs.com/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Latest-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)]()
+
 
 *A next-generation platform for project management and deployment*
 
