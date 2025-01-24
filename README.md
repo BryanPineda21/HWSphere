@@ -1,28 +1,31 @@
-#  HWSphere.com
+# HWSphere
 
-  Created by **BEN FUENTES**
+A robust platform for seamless project management and deployment.
 
-  Developed by **BRYAN PINEDA**
+## About
+
+HWSphere enables developers to efficiently upload, manage and showcase their projects through an intuitive interface powered by React and Three.js.
+
+## Status
+
+🚀 **In Active Development**
+
+- Awaiting stable React Three Fiber V9 release for React 19 compatibility
+- UI/UX redesign in progress to enhance visual appeal and usability 
+
+## Team
+
+- **Ben Fuentes** - Creator
+- **Bryan Pineda** - Lead Developer
+
+## Coming Soon
+
+- Enhanced 3D project visualization
+- Improved project management dashboard  
+- Streamlined upload workflow
+- Real-time collaboration features
 
 
-  What is HWSphere?
-    - **HWSphere is a robust and scalable platform for seamless project uploads and management** 
-
-
-
-
-
-🚧 REPO Under Construction 🚧
-
-
-
-## Update coming soon... Stay Tuned 😎 
-
-## What Updates?
-
- [x] **We are currently patiently waiting for a stable version of React Three Fiber V9 to be released, which will ensure compatibility with React 19.**
- 
- [x]**The UI is currently undergoing a change or is set to be improved to enhance the user experience and visual appeal**
 
   
   
