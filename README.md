@@ -74,20 +74,20 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ### 📺 View Early Development Progress
 
-
-*Initial Prototype Phase*
+##
+**Initial Prototype Phase**
 
 https://github.com/user-attachments/assets/680c4749-2655-4261-b611-c063aa02d562
 
-*Initial Prototype Phase*
+##
 
-*Core Features Implementation*
+**Core Features Implementation**
 
 https://github.com/user-attachments/assets/b2d8154a-382c-43a2-a163-b09e4e1e0187
 
+##
 
-
-*UI/UX Enhancement Phase*
+**UI/UX Enhancement Phase**
 
 https://github.com/user-attachments/assets/e863bcf0-c312-4276-b5b0-53d310abc590
 
