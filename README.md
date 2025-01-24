@@ -20,8 +20,9 @@
 
 ## What Updates?
 
-  **We are currently patiently waiting for a stable version of React Three Fiber V9 to be released, which will ensure compatibility with React 19.**
-  **The UI is currently undergoing a change or is set to be improved to enhance the user experience and visual appeal**
+ [x] **We are currently patiently waiting for a stable version of React Three Fiber V9 to be released, which will ensure compatibility with React 19.**
+ 
+ [x]**The UI is currently undergoing a change or is set to be improved to enhance the user experience and visual appeal**
 
   
   
