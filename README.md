@@ -18,7 +18,7 @@ HWSphere enables developers to efficiently upload, manage and showcase their pro
 - **Ben Fuentes** - Creator
 - **Bryan Pineda** - Lead Developer
 
-## Coming Soon
+## Coming Soon...
 
 - Enhanced 3D project visualization
 - Improved project management dashboard  
