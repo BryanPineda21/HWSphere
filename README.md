@@ -1,5 +1,7 @@
 <div align="center">
- ![whitelogov2 (1)](https://github.com/user-attachments/assets/574353d5-e094-414e-83fe-a332f5a265a6)
+
+
+<img src ="https://github.com/user-attachments/assets/574353d5-e094-414e-83fe-a332f5a265a6"/>
 
 # 🌐 HWSphere
 
