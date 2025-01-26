@@ -3,7 +3,7 @@ import axios from "axios";
 import { useAuth } from "./context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { useQueryClient, useMutation } from "@tanstack/react-query";
-import {Button, CircularProgress, Input} from "@nextui-org/react";
+import {Button, CircularProgress, Input} from "@heroui/react";
 import {createProject, uploadFile} from "./uploadFiles"
 
 

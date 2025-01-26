@@ -3,7 +3,7 @@ import { signOut,getAuth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useAuth } from "./context/AuthContext";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem,Button, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, User, user} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem,Button, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, User, user} from "@heroui/react";
 
 
 

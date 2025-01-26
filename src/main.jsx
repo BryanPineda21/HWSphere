@@ -8,8 +8,8 @@ import { QueryClient,QueryClientProvider } from '@tanstack/react-query'
 
 //-------------------------------------------------
 
-// Import the NextUIProvider
-import {NextUIProvider} from "@nextui-org/react";
+// Import the HeroUIProvider
+import {HeroUIProvider} from "@heroui/react";
 
 //-------------------------------------------------
 
@@ -121,9 +121,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AuthContext>
     <QueryClientProvider client={queryClient}>
     <RouterProvider router={router}>
-    <NextUIProvider>
+    <HeroUIProvider>
     <App/>
-    </NextUIProvider>
+    </HeroUIProvider>
     </RouterProvider>
     </QueryClientProvider>
     </AuthContext>

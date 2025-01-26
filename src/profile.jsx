@@ -6,8 +6,8 @@ import { updateDoc, doc, } from "firebase/firestore";
 import { deleteObject, ref } from "firebase/storage";
 import ProjectCard from "./projectCard.jsx";
 import UserProjects from "./userProjects.jsx";
-import {Divider} from "@nextui-org/divider";
-import { Avatar, Button } from "@nextui-org/react";
+import {Divider} from "@heroui/divider";
+import { Avatar, Button } from "@heroui/react";
 
 
 const ProfilePage = () => {

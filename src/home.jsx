@@ -41,7 +41,7 @@ welcome_hwsphere()`;
 
 
 return (
-  <div className="Home">
+  <div className="Home ">
     <h1 className="home-h1 flex justify-center text-center text-5xl pt-16">Open-Source Projects and Portfolios</h1>
     <p className="home-description flex justify-center items-center text-center text-1xl pt-16 w-full max-w-2xl mx-auto p-5">
       HWSphere is a project-hosting platform for engineers. We aim to showcase your projects in its entirety by supporting various file types.

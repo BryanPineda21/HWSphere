@@ -9,37 +9,13 @@ const cors = require('cors');
 
 
 
-// Create a Redis client  -- Redis might be an option for caching user content
-
-// let client;
-
-// (async () => {
-//  client = redis.createClient({
-//     password: process.env.REDIS_PW,
-//     socket: {
-//         host: process.env.REDIS_HOST,
-//         port: process.env.REDIS_PORT,
-//     }})
-
-
-//     client.on('error', error => {
-//       console.error(`Redis client error:`, error);
-//     });
-
-
-//     if(!client.isOpen){
-//       await client.connect().then(() => {
-//       console.log('Connected to Redis');
-//       });
-//     }
-
-// })();
 
 
 // Use environment variables from .env file 
 const storage = new Storage({
     projectId: process.env.FIREBASE_PROJECT_ID, // Replace with environment variable
     keyFilename: process.env.firebase_service_account_key, // Replace with environment variable
+    bucket: process.env.FIREBASE_STORAGE_BUCKET 
 }); // configuration for initializing Storage
 
 const app = express();
@@ -65,54 +41,81 @@ app.listen(port, () => {
 
 
 
-
-app.get('/api/projects:ownerId',cors(corsOptions),async (req, res) => {
-
-
-  res.set('Access-Control-Allow-Origin', 'http://localhost:5173'); // Replace with actual domain
-  res.set('Access-Control-Allow-Methods', 'GET'); // Method for this route
+// Getting projects by owner id
 
 
-
-  const projectsRef = db.collection('projects');
+app.get('/api/user/projects/:ownerId', cors(corsOptions), async (req, res) => {
   const { ownerId } = req.params;
-
-  console.log('Fetching projects for owner:', ownerId);
-
-
-  
-
   try {
-
+    const snapshot = await db.collection('projects')
+      .where('ownerId', '==', ownerId)
+      .get();
     
-    const snapshot = await projectsRef.where('ownerId', '==', ownerId).get();
-
-      if (snapshot.empty) {
-        console.log('No matching documents.');
-        return res.status(404).send('No projects found');
-        }
-
-        const projects = [];
-        snapshot.forEach(doc => {
-          projects.push({ id: doc.id, ...doc.data() });
-        });
-
-        console.log('Project fetch successful');
-
-        res.status(200).json(projects);
-
-
+    if (snapshot.empty) {
+      return res.status(404).send('No projects found');
+    }
+    
+    const projects = snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+    
+    res.status(200).json(projects);
   } catch (error) {
-      console.error('Error fetching projects:', error);
-      res.status(500).send('Failed to fetch projects');
+    console.error('Error:', error);
+    res.status(500).send('Failed to fetch projects');
   }
 });
 
 
 
+// app.get('/api/projects/:ownerId',cors(corsOptions),async (req, res) => {
+
+
+//   res.set('Access-Control-Allow-Origin', 'http://localhost:5173'); // Replace with actual domain
+//   res.set('Access-Control-Allow-Methods', 'GET'); // Method for this route
+
+
+
+//   const projectsRef = db.collection('projects');
+//   const { ownerId } = req.params;
+
+//   console.log('Fetching projects for owner:', ownerId);
+
+
+  
+
+//   try {
+
+    
+//     const snapshot = await projectsRef.where('ownerId', '==', ownerId).get();
+
+//       if (snapshot.empty) {
+//         console.log('No matching documents.');
+//         return res.status(404).send('No projects found');
+//         }
+
+//         const projects = [];
+//         snapshot.forEach(doc => {
+//           projects.push({ id: doc.id, ...doc.data() });
+//         });
+
+//         console.log('Project fetch successful');
+
+//         res.status(200).json(projects);
+
+
+//   } catch (error) {
+//       console.error('Error fetching projects:', error);
+//       res.status(500).send('Failed to fetch projects');
+//   }
+// });
+
+
+
 // get project by id
 
-app.get('/api/projects/:projectId',cors(corsOptions),async (req, res) => {  
+app.get('/api/project/:projectId',cors(corsOptions),async (req, res) => {  
 
   const projectsRef = db.collection('projects');
   const { projectId } = req.params;
