@@ -35,8 +35,8 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 | Role | Member |
 |------|--------|
-| Creator <img src="https://github.com/user-attachments/assets/3e96dbbc-26a1-4576-a5bc-e9144748df29" width="16px" height="16px"/> | **Ben Fuentes** |
-| Lead Developer <img src="https://github.com/user-attachments/assets/13c46b24-0945-483e-8dbb-4845c43f1014" width="16px" height="16px"/>| **Bryan Pineda** |
+| Creator | **Ben Fuentes** |
+| Lead Developer | **Bryan Pineda** |
 
 ## 🔮 Coming Soon
 
