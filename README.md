@@ -79,6 +79,10 @@ HWSphere empowers developers with an intuitive interface for project management,
 <img src="https://github.com/user-attachments/assets/079719d0-4b4a-47e5-be14-44427f7f8bf1" alt="3D View" width="100%"/>
 <em>SignUp Page</em>
 </td>  
+<td width="33%">
+<img src="https://github.com/user-attachments/assets/9d0a5582-f79a-4587-a008-6cf7f3d31fb9"  alt="3D View" width="100%"/>
+<em>User Profile Page</em>
+</td>
 </tr>
 </table>
 
@@ -101,6 +105,10 @@ https://github.com/user-attachments/assets/b2d8154a-382c-43a2-a163-b09e4e1e0187
 **UI/UX Enhancement Phase**
 
 https://github.com/user-attachments/assets/e863bcf0-c312-4276-b5b0-53d310abc590
+
+
+
+https://github.com/user-attachments/assets/b9bb7871-edd9-47e9-9191-d3682e3fe765
 
 
 
