@@ -56,6 +56,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 ### Current Interface
 
 <table>
+<tr>
 <td width="33%">
 <img src="https://github.com/user-attachments/assets/847dc3d1-bd0e-4163-b15b-f189bcb8c7e0" alt="Dashboard View" width="100%"/>
 <em>Modern Homepage Interface</em>
@@ -68,6 +69,8 @@ HWSphere empowers developers with an intuitive interface for project management,
 <img src="https://github.com/user-attachments/assets/0fb1c13c-3222-4b48-9340-b033fd2447ed" alt="3D View" width="100%"/>
 <em>PDF Uploading</em>
 </td>
+</tr>
+<tr>
 <td width="33%">
 <img src="https://github.com/user-attachments/assets/1fcc6739-be25-4cd0-a5bd-96513552a0e8" alt="3D View" width="100%"/>
 <em>Login Page</em>
@@ -76,6 +79,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 <img src="https://github.com/user-attachments/assets/079719d0-4b4a-47e5-be14-44427f7f8bf1" alt="3D View" width="100%"/>
 <em>SignUp Page</em>
 </td>  
+</tr>
 </table>
 
 ## 📅 Development Timeline
