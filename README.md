@@ -46,7 +46,9 @@ HWSphere empowers developers with an intuitive interface for project management,
 + Streamlined upload workflow
 + Advanced project analytics
 + Search and Filter Functionality
-+ Big UI/UX changes 
++ Big UI/UX changes
++ MP4s and PDF UPLOADS
++ Potential AI Implementation
 ```
   
 
