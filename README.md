@@ -25,10 +25,11 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ## 🚀 Status Update
 
+
+> **Launch coming soon...**
 > **React Three Fiber V9 Integration**  
 > Awaiting stable release for React 19 compatibility
-
-> **UI/UX Overhaul**  
+> **UI/UX Overhaul, NEW CHANGES MADE**  
 > Implementing modern design patterns and enhanced user experience
 
 ## 👥 Team
@@ -38,7 +39,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 | Creator | **Ben Fuentes** |
 | Lead Developer | **Bryan Pineda** |
 
-## 🔮 Coming Soon
+## 🔮 Coming Soon, note components have been updated
 
 ```diff
 + Enhanced 3D project visualization
@@ -47,7 +48,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 + Advanced project analytics
 + Search and Filter Functionality
 + Big UI/UX changes
-+ MP4s and PDF UPLOADS
++ MP4s and PDF UPLOADS, in progress
 + Potential AI Implementation
 ```
   
@@ -57,7 +58,25 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 <div align="center">
 
-### Current Interface
+### NEW AND UPDATED VERSION OF HWSphere
+
+
+<table>
+<tr>
+<td>
+
+
+
+
+  
+</td>
+</tr>
+</table>
+
+
+
+
+### OLD Interface
 
 <table>
 <tr>
