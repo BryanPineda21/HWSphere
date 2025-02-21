@@ -25,13 +25,19 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ## 🚀 Status Update
 
+### HWSphere Launch/Deployment
+- **Status**: Coming soon
+- Awaiting final features implementation and completion
 
-> **HWSphere Launch/Deployment coming soon**
-> Awaiting for final features to be implemented and completed
-> **React Three Fiber V9 Integration**  
-> Awaiting stable release for React 19 compatibility
-> **UI/UX Overhaul, NEW CHANGES MADE**  
-> Implementing modern design patterns and enhanced user experience
+### React Three Fiber V9 Integration
+- **Status**: In progress
+- Awaiting stable release for React 19 compatibility
+
+### UI/UX Overhaul
+- **Status**: Active development
+- Implementing modern design patterns
+- Enhancing overall user experience
+- New changes implemented
 
 ## 👥 Team
 
