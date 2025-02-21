@@ -35,6 +35,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ### UI/UX Overhaul
 - **Status**: Active development
+- Migrated from HeroUI to Shadcn
 - Implementing modern design patterns
 - Enhancing overall user experience
 - New changes implemented
