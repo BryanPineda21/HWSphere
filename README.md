@@ -72,6 +72,24 @@ HWSphere empowers developers with an intuitive interface for project management,
 <table>
 <tr>
 <td width="33%">
+<img width="1737" alt="Screenshot 2025-02-24 at 12 27 21 AM" src="https://github.com/user-attachments/assets/064bd49a-aae7-40d7-9cd1-77bf461c752e" />
+<em>HOME PAGE SECTION 1</em>  
+</td>
+
+<td width="33%">
+<img width="1568" alt="Screenshot 2025-02-24 at 12 28 01 AM" src="https://github.com/user-attachments/assets/02abad0a-930b-43fa-bcba-102c0322949c" />
+<em>HOME PAGE SECTION 2</em>  
+</td>
+
+
+<td width="33%">
+<img width="1385" alt="Screenshot 2025-02-24 at 12 28 09 AM" src="https://github.com/user-attachments/assets/7edc3467-125a-4fa5-b730-54ba3975965b" />
+<em>HOME PAGE SECTION 3</em>  
+</td>
+</tr>
+  
+<tr>
+<td width="33%">
 <img width="1498" alt="Screenshot 2025-02-21 at 10 30 20 AM" src="https://github.com/user-attachments/assets/65b48420-941d-492b-82cc-9ff6ec0d493b" />
 <em>NEW DISCOVER PAGE</em>  
 </td>
