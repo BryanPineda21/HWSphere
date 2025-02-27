@@ -34,10 +34,13 @@
   </table>
   <br>
   <br>
+ 
   [✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
+
+  <br>
+  <br>
 </div>
 
-[✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
 
 <div align="center">
   <p>Made with ❤️ by the HWSphere Team</p>
