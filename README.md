@@ -32,6 +32,9 @@
       <td align="center"><img src="https://avatars.githubusercontent.com/u/45790596?s=200&v=4" width="40px"><br><sub><b>Poimandres</b></sub></td>
     </tr>
   </table>
+  <br>
+  <br>
+  [✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
 </div>
 
 [✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
