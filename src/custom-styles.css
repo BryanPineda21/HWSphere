@@ -1,0 +1,129 @@
+pre[class*="language-"] {
+    background: black;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .line-numbers .line-numbers-rows {
+    border-right: 1px solid #008000;
+  }
+  
+  .line-numbers-rows > span:before {
+    color: #32CD32;
+  }
+  
+  .token.comment {
+    color: #90EE90;
+  }
+  
+  .token.string {
+    color: #32CD32;
+  }
+  
+  .token.function {
+    color: #008000;
+  }
+  
+  .token.keyword {
+    color: #32CD32;
+  }
+  
+  /* Leva controls custom styling */
+  .leva-c-kWgxhW {
+    background-color: transparent !important;
+  }
+  
+  .leva-c-jtMfEF {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+  }
+  
+  .leva-c-dnsB {
+    color: #90EE90 !important;
+  }
+
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease forwards;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+@keyframes bounce-x {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.animate-bounce-x {
+  animation: bounce-x 1s infinite;
+}
+
+/* Make sure main content doesn't get hidden under the navbar */
+main {
+  padding-top: 4rem; /* This provides default spacing below the navbar */
+}
+
+/* If you want a more app-like contained feel for your app */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Dark mode support */
+.dark body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Light mode support */
+.light body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Ensure proper layering with z-index */
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+}
+
+.dark .bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}

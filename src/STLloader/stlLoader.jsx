@@ -7,7 +7,7 @@ import { useControls } from "leva";
 
 
 
-const ModelStl = ({ url }) => {
+const ModelStl2 = ({ url }) => {
   const [geom, setGeom] = useState(null);
 
 
@@ -73,4 +73,4 @@ const ModelStl = ({ url }) => {
 )
 }
 
-export default ModelStl;
+export default ModelStl2;

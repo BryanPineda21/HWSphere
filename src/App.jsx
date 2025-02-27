@@ -1,15 +1,16 @@
 import { Outlet } from "react-router-dom";
-import NavigationBar from "./nav";
-import './App.css'
+import NavigationBar from "./components/navBar";
+
 
 function App() {
 
   return (
-    <div className="App">
+    <>
 
-    <NavigationBar/>
-    <Outlet/>
-    </div>
+      <NavigationBar/>
+        <Outlet/>
+    
+    </>
   )
 }
 

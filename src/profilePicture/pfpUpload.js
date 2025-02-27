@@ -1,8 +1,8 @@
 import {ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import { storage} from "./firebaseConfig";
+import { storage} from "../firebaseConfig";
 
 
-const upload = async (file) => {
+const profilePictureUpload = async (file) => {
 const date = new Date();
 const storageRef = ref(storage, `images/${date + file.name}`);
 const uploadTask = uploadBytesResumable(storageRef, file);
@@ -29,4 +29,4 @@ uploadTask.on('state_changed',
 });
 }
 
-export default upload;
+export default profilePictureUpload;
