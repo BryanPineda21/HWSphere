@@ -35,7 +35,7 @@
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40px"><br><sub><b>MongoDB</b></sub></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/highlightjs/highlight.js/main/extra/favicon/favicon.ico" width="40px"><br><sub><b>Highlight.js</b></sub></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/9039821?s=280&v=4" width="40px"><br><sub><b>Highlight.js</b></sub></td>
       <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" width="40px"><br><sub><b>Cloudflare</b></sub></td>
       <td align="center"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="40px"><br><sub><b>shadcn/ui</b></sub></td>
       <td align="center"></td>
