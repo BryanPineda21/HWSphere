@@ -15,9 +15,12 @@
 
 *A next-generation platform for project management and deployment*
 
-[Features](#features) • [Updates](#updates) • [Team](#team) • [Contribute](#contribute)
+[✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
 
 </div>
+
+
+
 
 ## 🎯 About
 
@@ -95,7 +98,7 @@ HWSphere empowers developers with an intuitive interface for project management,
   
 
 
-## 🎨 Latest Preview
+## 🎨 Preview
 
 <div align="center">
 
@@ -173,7 +176,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 </tr>
 </table>
 
-## 📅 Development Timeline
+## 📅 Timeline
 
 ### 📺 View Early Development Progress
 
