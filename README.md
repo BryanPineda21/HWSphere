@@ -5,7 +5,7 @@
 
 
 
-## A next-generation platform for project management and deployment
+**A next-generation platform for project management and deployment**
 
 [✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
 
