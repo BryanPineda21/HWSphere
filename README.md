@@ -3,11 +3,10 @@
 
 <img src ="https://github.com/user-attachments/assets/574353d5-e094-414e-83fe-a332f5a265a6" width="65%" alt="HWSphere Logo"/>
 
-
+<br>
+<br>
 
 **A next-generation platform for project management and deployment**
-
-[✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
 
 </div>
 
@@ -34,6 +33,8 @@
     </tr>
   </table>
 </div>
+
+[✨ Features](#features) • [🔄 Updates](#updates) • [👥 Team](#team) • [🖼️ Preview](#Preview)  • [📅 Timeline](#Timeline)
 
 <div align="center">
   <p>Made with ❤️ by the HWSphere Team</p>
