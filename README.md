@@ -83,7 +83,7 @@ HWSphere empowers developers with an intuitive interface for project management,
   </tr>
 </table>
 
-## 🔮 Coming Soon, note components have been updated
+## 🔮 Coming Soon
 
 ```diff
 + Enhanced 3D project visualization
