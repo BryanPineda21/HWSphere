@@ -25,6 +25,10 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ## 🚀 Status Update
 
+### NEW UPDATES
+- MP4s and PDFs Uploads have been implemented and completed
+- Project Form Creation has been Updated and improved, users are now able to add tags to their projects
+
 ### HWSphere Launch/Deployment
 - **Status**: Coming soon
 - Awaiting final features implementation and completion
