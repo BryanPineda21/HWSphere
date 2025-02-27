@@ -38,6 +38,15 @@
 </div>
 
 
+<div align="center">
+  <img src="https://img.shields.io/github/stars/yourusername/hwsphere?style=social" alt="Stars">
+  <img src="https://img.shields.io/github/forks/yourusername/hwsphere?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/issues/yourusername/hwsphere?style=social" alt="Issues">
+  <br><br>
+  <p>Made with ❤️ by the HWSphere Team</p>
+  <p>© 2025 HWSphere</p>
+</div>
+
 
 
 ## 🎯 About
