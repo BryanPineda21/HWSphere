@@ -38,7 +38,7 @@
       <td align="center"><img src="https://avatars.githubusercontent.com/u/9039821?s=280&v=4" width="40px"><br><sub><b>Highlight.js</b></sub></td>
       <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" width="40px"><br><sub><b>Cloudflare</b></sub></td>
       <td align="center"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="40px"><br><sub><b>shadcn/ui</b></sub></td>
-      <td align="center"><img src="https://avatars.githubusercontent.com/u/45790596?s=200&v=4" width="40px"><br><sub><b>React Three Fiber</b></sub></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/45790596?s=200&v=4" width="40px"><br><sub><b>Poimandres</b></sub></td>
     </tr>
   </table>
 </div>
