@@ -24,7 +24,7 @@
   <table>
     <tr>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40px"><br><sub><b>React 19</b></sub></td>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" width="40px"><br><sub><b>Three.js</b></sub></td>
+      <td align="center"><img src="https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751_2_1016x1024.png" width="40px"><br><sub><b>Three.js</b></sub></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40px"><br><sub><b>Firebase</b></sub></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40px"><br><sub><b>Node.js</b></sub></td>
     </tr>
@@ -38,7 +38,7 @@
       <td align="center"><img src="https://avatars.githubusercontent.com/u/9039821?s=280&v=4" width="40px"><br><sub><b>Highlight.js</b></sub></td>
       <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" width="40px"><br><sub><b>Cloudflare</b></sub></td>
       <td align="center"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="40px"><br><sub><b>shadcn/ui</b></sub></td>
-      <td align="center"><img src="https://avatars.githubusercontent.com/u/45790596?s=200&v=4" width="40px"><br><sub><b>Poimandres</b></sub></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/45790596?s=200&v=4" width="40px"><br><sub><b>React Three Fiber</b></sub></td>
     </tr>
   </table>
 </div>
