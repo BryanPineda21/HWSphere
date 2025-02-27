@@ -30,14 +30,14 @@
     </tr>
     <tr>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40px"><br><sub><b>Express</b></sub></td>
-      <td align="center"><img src="https://img.shields.io/badge/TailwindCSS-Latest-38B2AC?style=flat-square&logo=tailwind-css" width="40px"><br><sub><b>TailwindCSS</b></sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="40px"><br><sub><b>TailwindCSS</b></sub></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40px"><br><sub><b>TypeScript</b></sub></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40px"><br><sub><b>MongoDB</b></sub></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/favicon.png" width="40px"><br><sub><b>Highlight.js</b></sub></td>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" width="40px"><br><sub><b>Cloudflare</b></sub></td>
-      <td align="center"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 4a6 6 0 100 12 6 6 0 000-12z" fill="currentColor"/></svg><br><sub><b>shadcn/ui</b></sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/highlightjs/highlight.js/main/extra/favicon/favicon.ico" width="40px"><br><sub><b>Highlight.js</b></sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" width="40px"><br><sub><b>Cloudflare</b></sub></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="40px"><br><sub><b>shadcn/ui</b></sub></td>
       <td align="center"></td>
     </tr>
   </table>
