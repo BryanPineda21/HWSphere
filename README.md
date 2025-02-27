@@ -6,16 +6,18 @@
 <br>
 <br>
 
-**A next-generation platform for project management and deployment**
+  ***A next-generation platform for project management and deployment***
 
 </div>
 
 <div align="center">
 
-### 🛠️ Built With 🛠️
+<br>
+<br>
+
+ **🛠️ Built With 🛠️**
   
-  <br>
-  <br>
+
   <table>
     <tr>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40px"><br><sub><b>React 19</b></sub></td>
