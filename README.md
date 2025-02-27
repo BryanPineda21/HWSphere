@@ -65,10 +65,20 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ## 👥 Team
 
-| Role | Member |
-|------|--------|
-| Creator | **Ben Fuentes** |
-| Lead Developer | **Bryan Pineda** |
+<table>
+  <tr>
+    <th>Role</th>
+    <th>Member</th>
+  </tr>
+  <tr>
+    <td>Creator</td>
+    <td><b>Ben Fuentes</b></td>
+  </tr>
+  <tr>
+    <td>Lead Developer</td>
+    <td><b>Bryan Pineda</b></td>
+  </tr>
+</table>
 
 ## 🔮 Coming Soon, note components have been updated
 
