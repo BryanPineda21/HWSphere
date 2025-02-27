@@ -25,24 +25,43 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 ## 🚀 Status Update
 
-### NEW UPDATES
-- MP4s and PDFs Uploads have been implemented and completed
-- Project Form Creation has been Updated and improved, users are now able to add tags to their projects
-
-### HWSphere Launch/Deployment
-- **Status**: Coming soon
-- Awaiting final features implementation and completion
-
-### React Three Fiber V9 Integration
-- **Status**: In progress
-- Awaiting stable release for React 19 compatibility
-
-### UI/UX Overhaul
-- **Status**: Active development
-- Migrated from HeroUI to Shadcn
-- Implementing modern design patterns
-- Enhancing overall user experience
-- New changes implemented
+<table>
+  <tr>
+    <th>Component</th>
+    <th>Status</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>📱 <b>File Uploads</b></td>
+    <td><img src="https://img.shields.io/badge/Completed-brightgreen?style=flat-square"/></td>
+    <td>MP4s and PDFs upload support implemented</td>
+  </tr>
+  <tr>
+    <td>📝 <b>Project Form</b></td>
+    <td><img src="https://img.shields.io/badge/Updated-blue?style=flat-square"/></td>
+    <td>Enhanced UI with project tagging functionality</td>
+  </tr>
+  <tr>
+    <td>🚀 <b>Platform Launch</b></td>
+    <td><img src="https://img.shields.io/badge/Coming%20Soon-yellow?style=flat-square"/></td>
+    <td>Awaiting final features implementation and completion</td>
+  </tr>
+  <tr>
+    <td>🧩 <b>React Three Fiber V9</b></td>
+    <td><img src="https://img.shields.io/badge/In%20Progress-orange?style=flat-square"/></td>
+    <td>Awaiting stable release for React 19 compatibility</td>
+  </tr>
+  <tr>
+    <td>🎨 <b>UI/UX Overhaul</b></td>
+    <td><img src="https://img.shields.io/badge/Active-blue?style=flat-square"/></td>
+    <td>
+      • Migrated from HeroUI to Shadcn<br>
+      • Implementing modern design patterns<br>
+      • Enhancing overall user experience<br>
+      • New changes implemented
+    </td>
+  </tr>
+</table>
 
 ## 👥 Team
 
