@@ -127,6 +127,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 + Big UI/UX changes
 + MP4s and PDF UPLOADS, in progress
 + Potential AI Implementation
++ Improve 3D model viewer, adding edges to the model and improve the lighlting for better visual
 ```
   
 
