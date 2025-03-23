@@ -39,7 +39,7 @@ import Protected from './protected.jsx'
 import ProfilePage from './pages/profile.jsx'
 import ProjectPage from './pages/projectViewPage.jsx'
 import CreateProjectForm from './projectForms/createProjectForm.jsx'
-import EditProjectForm from './projectForms/editProjectForm'
+import EditProjectRoute from './projectForms/editProjectRoute'
 
 
 //-------------------------------------------------
@@ -80,8 +80,8 @@ const router = createBrowserRouter(
       {/* Edit Project page */}
 
       <Route path="edit-project">
-      <Route index element={<EditProjectForm/>} />
-      <Route path=":projectId" element={<EditProjectForm />} />
+      <Route index element={<Protected><EditProjectRoute /></Protected>} />
+      <Route path=":projectId" element={<Protected><EditProjectRoute /></Protected>} />
       </Route> 
 
      

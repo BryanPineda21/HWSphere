@@ -63,7 +63,7 @@ const ModelStlView = ({url} ) => {
   // Add back the controls for clipping and appearance
   const { clip, clipPosition, wireframe, color, metalness, roughness } = useControls({
     clip: false,
-    clipPosition: { value: 0, min: -250, max: 250 },
+    clipPosition: { value: 0, min: -5, max: 5, step: 0.1 },
     wireframe: false,
     color: '#808080',
     metalness: { value: 0.5, min: 0, max: 1 },
@@ -202,7 +202,7 @@ const ModelViewer = ({ modelUrl }) => {
         </div>
       }>
         <Canvas
-          camera={{ position: [20, 20, 20], fov: 60 }}
+          camera={{ position: [30, -90, 40], fov: 5 }}
           gl={{ preserveDrawingBuffer: true }}
           linear
         >
@@ -426,6 +426,13 @@ const ProjectPage = () => {
     toast.success('Project updated successfully');
   };
 
+
+  // Function to navigate to edit project page
+  const navigateToEditProject = () => {
+    navigate(`/edit-project/${projectId}`);
+  };
+
+
   if (isLoading) return <ProjectSkeleton />;
   if (isError) return <ErrorAlert message={error?.message || 'Error fetching project'} />;
   if (!project) return <ErrorAlert message="Project not found" />;
@@ -450,6 +457,7 @@ const ProjectPage = () => {
     <div className="min-h-screen bg-gradient-to-br from-zinc-950 via-black to-zinc-900 text-white pt-16 md:pt-20 p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+
           {/* Left Column: Project Details */}
           <div className="lg:col-span-4 space-y-6">
             <Card className="border-none bg-zinc-900/50 backdrop-blur-sm shadow-lg h-fit sticky top-20 transition-all duration-300 hover:shadow-xl">
@@ -459,17 +467,6 @@ const ProjectPage = () => {
                     {project.title}
                   </h1>
                   <div className="flex gap-2">
-                    {/* Edit Project Button */}
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      className="text-zinc-400 hover:text-emerald-400 hover:bg-zinc-800/50"
-                      aria-label="Edit project"
-                      onClick={() => setIsEditFormOpen(true)}
-                    >
-                      <Pencil className="w-5 h-5" />
-                    </Button>
-                    
                     {/* Delete Project Button */}
                     <AlertDialog open={isDeleteDialogOpen} onOpenChange={setIsDeleteDialogOpen}>
                       <AlertDialogTrigger asChild>
@@ -542,9 +539,22 @@ const ProjectPage = () => {
                     Last updated: {new Date(project.updatedAt).toLocaleDateString()}
                   </div>
                 )}
+
+                {/* Edit Project Button - More prominent and moved to its own section */}
+                <div className="mt-6">
+                  <Button 
+                    variant="outline" 
+                    className="w-full bg-zinc-800/50 border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/10 hover:text-emerald-300 transition-all"
+                    onClick={navigateToEditProject}
+                  >
+                    <Pencil className="w-4 h-4 mr-2" />
+                    Edit Project
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </div>
+    
 
           {/* Right Column: Interactive Content */}
           <div className="lg:col-span-8">
@@ -610,16 +620,6 @@ const ProjectPage = () => {
           </div>
         </div>
       </div>
-
-      {/* Edit Project Form Dialog */}
-      {project && (
-        <EditProjectForm
-          project={project}
-          isDialog={true}
-          onSuccess={handleProjectUpdate}
-          onClose={() => setIsEditFormOpen(false)}
-        />
-      )}
     </div>
   );
 };

@@ -19,7 +19,7 @@ const ModelWithControls = () => {
   
   const { clip, clipPosition, wireframe } = useControls({
     clip: false,
-    clipPosition: { value: 0, min: -10, max: 10 },
+    clipPosition: { value: 0, min: -5, max: 5, step: 0.1},
     wireframe: false
   });
 
@@ -92,8 +92,10 @@ const Scene3D = () => {
       </div>
       <div className="relative h-[calc(100%-40px)]">
         <Canvas 
-          camera={{ position: [5, 5, 5], fov: 40 }} 
+          // camera={{ position: [5, 5, 5], fov: 40 }} 
+          camera={{ position: [0, 120, 15], fov: 70 }}
           gl={{ preserveDrawingBuffer: true }}
+          shadows
         >
           <Suspense fallback={null}>
             <ModelWithControls />
@@ -102,8 +104,8 @@ const Scene3D = () => {
               dampingFactor={0.05} 
               rotateSpeed={0.5} 
               zoomSpeed={0.5}
-              minDistance={1}
-              maxDistance={20}
+              minDistance={20}
+              maxDistance={35}
             />
             <Environment preset="city" />
           </Suspense>

@@ -162,7 +162,7 @@ const DiscoverPage = () => {
                 </span>
               </h1>
               
-              <p className="text-gray-600 dark:text-zinc-400 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-gray-600 dark:text-zinc-400 text-lg mb-10 max-w-2xl mx-auto leading-relaxed font-geist font-light">
                 Explore cutting-edge engineering innovations, connect with talented developers, 
                 and discover your next collaborative project.
               </p>
@@ -176,7 +176,7 @@ const DiscoverPage = () => {
                   <Input
                     className="w-full h-14 pl-14 pr-5 text-lg rounded-full border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/80 shadow-lg shadow-emerald-200/20 dark:shadow-emerald-900/10 
                               focus-visible:ring-emerald-500/30 focus-visible:border-emerald-400 dark:focus-visible:border-emerald-600
-                              placeholder:text-gray-400 dark:placeholder:text-zinc-600 transition-all duration-200"
+                              placeholder:text-gray-400 dark:placeholder:text-zinc-600 transition-all duration-200 font-geist font-extralight"
                     placeholder="Search projects, technologies, or topics..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
@@ -294,7 +294,7 @@ const DiscoverPage = () => {
                 </CardHeader>
                 
                 <CardContent className="pb-3">
-                  <p className="text-gray-600 dark:text-zinc-400 text-sm mb-4">{project.description}</p>
+                  <p className="text-gray-600 dark:text-zinc-400 text-sm mb-4 font-geist font-normal">{project.description}</p>
                   <div className="flex flex-wrap gap-1.5 mb-2">
                     {project.tags.slice(0, 3).map((tag) => (
                       <Badge 
