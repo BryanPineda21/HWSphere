@@ -137,17 +137,17 @@ const HomePage = () => {
               <div className="p-6 rounded-xl bg-zinc-100/50 dark:bg-zinc-900/50 border border-zinc-300 dark:border-zinc-800 hover:border-emerald-500/50 transition-all duration-300">
                 <Code className="w-6 h-6 text-emerald-500 dark:text-emerald-400 mx-auto mb-3" />
                 <div className="text-zinc-900 dark:text-white font-medium mb-2">Software Projects</div>
-                <div className="text-sm text-zinc-600 dark:text-zinc-400">Share your code with syntax highlighting</div>
+                <div className="text-sm text-zinc-600 dark:text-zinc-400 font-geist font-light">Share your code with syntax highlighting</div>
               </div>
               <div className="p-6 rounded-xl bg-zinc-100/50 dark:bg-zinc-900/50 border border-zinc-300 dark:border-zinc-800 hover:border-emerald-500/50 transition-all duration-300">
                 <Cog className="w-6 h-6 text-emerald-500 dark:text-emerald-400 mx-auto mb-3" />
                 <div className="text-zinc-900 dark:text-white font-medium mb-2">CAD Models</div>
-                <div className="text-sm text-zinc-600 dark:text-zinc-400">Interactive 3D model viewing</div>
+                <div className="text-sm text-zinc-600 dark:text-zinc-400 font-geist font-light">Interactive 3D model viewing</div>
               </div>
               <div className="p-6 rounded-xl bg-zinc-100/50 dark:bg-zinc-900/50 border border-zinc-300 dark:border-zinc-800 hover:border-emerald-500/50 transition-all duration-300">
                 <FileText className="w-6 h-6 text-emerald-500 dark:text-emerald-400 mx-auto mb-3" />
                 <div className="text-zinc-900 dark:text-white font-medium mb-2">Documentation</div>
-                <div className="text-sm text-zinc-600 dark:text-zinc-400">Comprehensive technical docs</div>
+                <div className="text-sm text-zinc-600 dark:text-zinc-400 font-geist font-light">Comprehensive technical docs</div>
               </div>
             </div>
 
@@ -202,7 +202,7 @@ const HomePage = () => {
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold text-zinc-900 dark:text-white">{feature.title}</h3>
-                <p className="text-zinc-600 dark:text-zinc-400">{feature.description}</p>
+                <p className="text-zinc-600 dark:text-zinc-400 font-geist font-light ">{feature.description}</p>
               </CardContent>
             </Card>
           ))}
