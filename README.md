@@ -73,6 +73,11 @@ HWSphere empowers developers with an intuitive interface for project management,
     <td>MP4s and PDFs upload support implemented</td>
   </tr>
   <tr>
+    <td>🔍🕵️‍♂️ <b>Search Feature</b></td>
+    <td><img src="https://img.shields.io/badge/Coming%20Soon-yellow?style=flat-square"/></td>
+    <td> Searching is currently being implemented</td>
+  </tr>
+  <tr>
     <td>📝 <b>Project Form</b></td>
     <td><img src="https://img.shields.io/badge/Updated-blue?style=flat-square"/></td>
     <td>Enhanced UI with project tagging functionality</td>
