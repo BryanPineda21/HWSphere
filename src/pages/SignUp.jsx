@@ -56,7 +56,7 @@ const SignUp = () => {
         email,
       });
 
-      navigate(`/u/:${username}`);
+      navigate(`/u/${username}`);
     } catch (error) {
       console.log(error);
       setError("root", { message: "Invalid input" });
