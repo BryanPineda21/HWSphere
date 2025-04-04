@@ -74,7 +74,7 @@ HWSphere empowers developers with an intuitive interface for project management,
   </tr>
   <tr>
     <td>🔍🕵️‍♂️ <b>Search Feature</b></td>
-    <td><img src="https://img.shields.io/badge/Coming%20Soon-yellow?style=flat-square"/></td>
+    <td><img src="https://img.shields.io/badge/Almost%20Completed-purple?style=flat-square"/></td>
     <td> Searching is currently being implemented</td>
   </tr>
   <tr>
