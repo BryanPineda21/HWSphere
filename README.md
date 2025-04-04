@@ -137,7 +137,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 <div align="center">
 
-### Version 2 of HWSphere
+### VERSION 2 OF HWSphere
 
 
 <table>
@@ -178,7 +178,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 
 
-### OLD Interface
+### VERSION 1 OF HWSphere
 
 <table>
 <tr>
