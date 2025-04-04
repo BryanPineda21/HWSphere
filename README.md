@@ -127,7 +127,6 @@ HWSphere empowers developers with an intuitive interface for project management,
 + Real-time collaboration features
 + Streamlined upload workflow
 + Advanced project analytics
-+ Search and Filter Functionality
 + Potential AI Implementation
 + Improve 3D model viewer, adding edges to the model and improve the lighlting for better visual
 ```
