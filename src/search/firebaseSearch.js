@@ -95,28 +95,20 @@ export const getTags = async () => {
   }
   
   try {
-    // Most efficient approach is to have a separate tags collection
-    // But we can also aggregate from the projects collection
-    const tagsSet = new Set(['All']);
+    // Query the tags collection directly instead of scanning projects
+    const tagsCollection = collection(db, 'tags');
+    // Order by count to get most popular tags first
+    const tagsQuery = query(tagsCollection, orderBy('count', 'desc'));
+    const snapshot = await getDocs(tagsQuery);
     
-    // Get a limited set of projects to extract tags
-    const projectsRef = query(
-      collection(db, 'projects'),
-      where('visibility', '==', 'public'),
-      limit(50) // Limit to recent projects to keep read operations down
-    );
+    // Start with 'All' as the first option
+    const tags = ['All'];
     
-    const snapshot = await getDocs(projectsRef);
-    
-    // Extract unique tags
+    // Extract tag names from the documents
     snapshot.forEach((doc) => {
-      const data = doc.data();
-      if (data.tags && Array.isArray(data.tags)) {
-        data.tags.forEach(tag => tagsSet.add(tag));
-      }
+      const tagData = doc.data();
+      tags.push(tagData.name);
     });
-    
-    const tags = Array.from(tagsSet);
     
     // Update cache
     cache.tags = tags;
@@ -125,7 +117,7 @@ export const getTags = async () => {
     return tags;
   } catch (error) {
     console.error("Error fetching tags:", error);
-    throw error;
+    return ['All']; // Return at least 'All' on error
   }
 };
 

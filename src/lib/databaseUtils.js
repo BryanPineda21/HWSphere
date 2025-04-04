@@ -6,7 +6,8 @@ import {
   getDoc, 
   getDocs,
   writeBatch,
-  serverTimestamp 
+  serverTimestamp,
+  increment
 } from 'firebase/firestore';
 
 export const generateSearchIndexes = (project) => {
@@ -90,6 +91,12 @@ export const addProject = async (projectData, userId) => {
     
     // Save to Firestore
     await setDoc(projectRef, project);
+
+
+    // Update tag counts
+    if (project.tags && Array.isArray(project.tags)) {
+      await updateTagCounts(project.tags, []);
+    }
     
     return {
       id: projectId,
@@ -105,6 +112,10 @@ export const addProject = async (projectData, userId) => {
 export const updateProject = async (projectId, projectData) => {
   try {
     const projectRef = doc(db, 'projects', projectId);
+
+     // Get old project data for tag comparison
+     const oldProjectDoc = await getDoc(projectRef);
+     const oldTags = oldProjectDoc.exists() ? (oldProjectDoc.data().tags || []) : [];
     
     // Update with new data
     await setDoc(projectRef, {
@@ -112,6 +123,12 @@ export const updateProject = async (projectId, projectData) => {
       updatedAt: serverTimestamp()
     }, { merge: true });
     
+
+    // Update tag counts
+    if (projectData.tags && Array.isArray(projectData.tags)) {
+      await updateTagCounts(projectData.tags, oldTags);
+    }
+
     return {
       id: projectId,
       ...projectData
@@ -215,5 +232,120 @@ export const updateAllProjectsWithSearchIndexes = async (batchSize = 500) => {
   } catch (error) {
     console.error("Error updating projects with search indexes:", error);
     throw error;
+  }
+};
+
+/**
+ * Gets a normalized tag ID from a tag name
+ * @param {string} tagName - Original tag name (e.g., "C++")
+ * @returns {string} - Normalized tag ID (e.g., "c++")
+ */
+export const getNormalizedTagId = (tagName) => {
+  return tagName.replace(/\s+/g, '_').toLowerCase();
+};
+
+/**
+ * Updates tag counts when a project is created or updated
+ * @param {Array} newTags - New tags for the project
+ * @param {Array} oldTags - Previous tags (if updating a project)
+ */
+export const updateTagCounts = async (newTags = [], oldTags = []) => {
+  try {
+    // Skip if both arrays are empty
+    if (!newTags.length && !oldTags.length) return;
+    
+    // Find tags to add and remove
+    const tagsToAdd = newTags.filter(tag => !oldTags.includes(tag));
+    const tagsToRemove = oldTags.filter(tag => !newTags.includes(tag));
+    
+    // Skip if no changes
+    if (!tagsToAdd.length && !tagsToRemove.length) return;
+    
+    const batch = writeBatch(db);
+    
+    // Increment count for new tags
+    for (const tag of tagsToAdd) {
+      const tagId = getNormalizedTagId(tag);
+      const tagRef = doc(db, 'tags', tagId);
+      
+      // Check if tag exists
+      const tagDoc = await getDoc(tagRef);
+      
+      if (tagDoc.exists()) {
+        // Update existing tag
+        batch.update(tagRef, {
+          count: increment(1),
+          updatedAt: serverTimestamp()
+        });
+      } else {
+        // Create new tag
+        batch.set(tagRef, {
+          name: tag,
+          count: 1,
+          createdAt: serverTimestamp(),
+          updatedAt: serverTimestamp()
+        });
+      }
+    }
+    
+    // Decrement count for removed tags
+    for (const tag of tagsToRemove) {
+      const tagId = getNormalizedTagId(tag);
+      const tagRef = doc(db, 'tags', tagId);
+      
+      // Check if tag exists
+      const tagDoc = await getDoc(tagRef);
+      
+      if (tagDoc.exists()) {
+        const currentCount = tagDoc.data().count;
+        
+        if (currentCount <= 1) {
+          // Delete tag if count will reach zero
+          batch.delete(tagRef);
+        } else {
+          // Decrement tag count
+          batch.update(tagRef, {
+            count: increment(-1),
+            updatedAt: serverTimestamp()
+          });
+        }
+      }
+    }
+    
+    // Commit all changes
+    await batch.commit();
+    
+    return {
+      added: tagsToAdd.length,
+      removed: tagsToRemove.length
+    };
+  } catch (error) {
+    console.error("Error updating tag counts:", error);
+    // Don't throw, just log - allow the project operation to continue
+  }
+};
+
+/**
+ * Fetch tags from Firestore
+ * @returns {Promise<Array>} Array of tag objects with name and count
+ */
+export const getTagsFromFirestore = async () => {
+  try {
+    const tagsCollection = collection(db, 'tags');
+    const tagsSnapshot = await getDocs(tagsCollection);
+    
+    const tags = [];
+    tagsSnapshot.forEach(doc => {
+      tags.push({
+        id: doc.id,
+        ...doc.data()
+      });
+    });
+    
+    // Sort by count in descending order
+    return tags.sort((a, b) => b.count - a.count);
+  } catch (error) {
+    console.error('Error fetching tags:', error);
+    return [];
   }
 };
