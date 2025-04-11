@@ -74,7 +74,7 @@ HWSphere empowers developers with an intuitive interface for project management,
   </tr>
   <tr>
     <td>🔍🕵️‍♂️ <b>Search Feature</b></td>
-    <td><img src="https://img.shields.io/badge/Coming%20Soon-yellow?style=flat-square"/></td>
+    <td><img src="https://img.shields.io/badge/Almost%20Completed-purple?style=flat-square"/></td>
     <td> Searching is currently being implemented</td>
   </tr>
   <tr>
@@ -127,7 +127,6 @@ HWSphere empowers developers with an intuitive interface for project management,
 + Real-time collaboration features
 + Streamlined upload workflow
 + Advanced project analytics
-+ Search and Filter Functionality
 + Potential AI Implementation
 + Improve 3D model viewer, adding edges to the model and improve the lighlting for better visual
 ```
@@ -138,7 +137,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 <div align="center">
 
-### NEW AND UPDATED VERSION OF HWSphere
+### VERSION 2 OF HWSphere
 
 
 <table>
@@ -179,7 +178,7 @@ HWSphere empowers developers with an intuitive interface for project management,
 
 
 
-### OLD Interface
+### VERSION 1 OF HWSphere
 
 <table>
 <tr>
