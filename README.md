@@ -6,7 +6,7 @@
 <br>
 <br>
 
-  ***HARDWARE SPHERE IS A next-generation platform for project management and deployment***
+  *** A next-generation platform for project management and deployment***
 
 </div>
 
