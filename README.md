@@ -89,8 +89,8 @@ HWSphere empowers developers with an intuitive interface for project management,
   </tr>
   <tr>
     <td>🧩 <b>React Three Fiber V9</b></td>
-    <td><img src="https://img.shields.io/badge/In%20Progress-orange?style=flat-square"/></td>
-    <td>Awaiting stable release for React 19 compatibility</td>
+    <td><img src="https://img.shields.io/badge/In%20Progress-blue?style=flat-square"/></td>
+    <td>React Three Fiber V9 is now compatible with react 19, migration process started</td>
   </tr>
   <tr>
     <td>🎨 <b>UI/UX Overhaul</b></td>
