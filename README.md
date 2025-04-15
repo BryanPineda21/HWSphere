@@ -59,7 +59,9 @@
 
 HWSphere empowers developers with an intuitive interface for project management, powered by React and Three.js for immersive visualization.
 
-## 🚀 Status Update
+## 🚀 Status Update  ⚠️ HWSphere Currently Down ⚠️
+
+- ⚙️ packaged configuration issues and currently undergoing react three fiber migration process 🛠️
 
 <table>
   <tr>
